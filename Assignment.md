@@ -2,7 +2,11 @@
 
 ## 1. Student Details
 
-- **Full Name**: Ian Waruingi Karanja
+- **Full Name**:
+- Ian Waruingi Karanja
+- 150147
+- iankaranja13
+- ian.karanja@strathmore.edu
 - **Admission Number**: 150147
 - **GitHub Username**: iankaranja13
 - **Email**:
