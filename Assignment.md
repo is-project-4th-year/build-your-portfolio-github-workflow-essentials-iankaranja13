@@ -17,7 +17,8 @@
 Write about **4 things** you expected to learn during the Git crash course (yes, we all came in with some big hopes 😅).
 For each one, mention:
 
-What you thought it would be like **(Expectation 👀)**
+What you thought it would be like 
+**(Expectation 👀)**
  **1.Concept: Git vs GitHub**
 
 Expectation 👀 : I thought Git and GitHub were just two names for the same tool—they both helped save code, right?
