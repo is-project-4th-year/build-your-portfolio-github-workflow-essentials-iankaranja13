@@ -2,9 +2,9 @@
 
 ## 1. Student Details
 
-- **Full Name**:
-- **Admission Number**:
-- **GitHub Username**:
+- **Full Name**: Ian Waruingi Karanja
+- **Admission Number**: 150147
+- **GitHub Username**: iankaranja13
 - **Email**:
 
 ## 2. Deployed Portfolio Link
@@ -18,14 +18,40 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 For each one, mention:
 
 What you thought it would be like **(Expectation 👀)**
+ **1.Concept: Git vs GitHub**
 
-What you actually learned **(Reality 😅)**
+Expectation 👀 : I thought Git and GitHub were just two names for the same tool—they both helped save code, right?
 
-And how it helped with your personal portfolio project 💻
+Reality 😅: Git is the local version control system that tracks changes, while GitHub is an online platform where you host and share Git repositories.
 
-make it honest—and if it surprised you, even better!
+Impact 💡: I finally understood where my project lives and how it's tracked. This helped me confidently push my portfolio project to GitHub and share the link on my CV!
 
-Example format:
+**2. Concept: Commit Messages**
+
+Expectation 👀 : I figured commit messages were just a formality—something short like "update" would do.
+
+Reality 😅: Clear and meaningful commit messages actually help a lot! Especially when you want to go back and understand what changed and why.
+
+Impact 💡: I started writing useful messages like Add responsive navbar or Fix image alignment bug, which helped me track my progress and debug issues faster in my portfolio.
+
+**3. Concept: Merge Conflicts**
+
+Expectation 👀 : I assumed Git would just figure things out for me when merging changes.
+
+Reality 😅: When two branches change the same lines, Git asks you to decide what stays. It can be confusing—but it's also empowering once you get it.
+
+Impact 💡: I ran into a merge conflict while adding a new section to my homepage, but learning how to resolve it helped me keep my code clean and gave me more control over my project.
+
+**4. Concept: Cloning and Remote Repos**
+
+
+Expectation 👀 : I thought cloning was only useful if I was working on someone else’s open-source project.
+
+Reality 😅: Cloning is super useful even for my own work—especially when switching devices or collaborating.
+
+Impact 💡: I cloned my portfolio repo onto a different laptop at school and kept working without missing a beat. Plus, I could show my progress from any device!
+
+Example:
 
 **🧠 What I Thought I'd Learn vs What I Actually Learned**
 **1. Concept: Branching**
