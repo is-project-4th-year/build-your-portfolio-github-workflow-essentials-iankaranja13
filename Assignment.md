@@ -10,7 +10,7 @@
 ## 2. Deployed Portfolio Link
 
 - **GitHub Pages URL**:  
-  _(Provide the live link to your deployed portfolio website)_
+  https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-iankaranja13/
 
 ## 3. Learnings from the Git Crash Program
 
@@ -18,6 +18,7 @@ Write about **4 things** you expected to learn during the Git crash course (yes,
 For each one, mention:
 
 What you thought it would be like 
+
 **(Expectation 👀)**
  **1.Concept: Git vs GitHub**
 
