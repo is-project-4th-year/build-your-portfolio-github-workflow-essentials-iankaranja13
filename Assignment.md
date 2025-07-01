@@ -77,7 +77,12 @@ Include screenshots that demonstrate how you used GitHub to manage your project.
 
 ### A. Milestones and Issues
 
-- Screenshot showing your milestone(s) and the issues linked to it.
+![3AA6F240-0A9F-46E0-AE30-1B519C4F7CCC_1_105_c](https://github.com/user-attachments/assets/d22c253b-8f99-420d-91f9-4f03cbf5da95)
+![00A6F7AD-00BE-4DD6-A8A6-A6E05BD1471E_1_105_c](https://github.com/user-attachments/assets/31772950-3d3f-4b35-b49d-7f4608221cec)
+<img width="1409" alt="image" src="https://github.com/user-attachments/assets/3d2e5244-e0f4-49e2-bf16-fa947ffc0fd8" />
+
+
+
 
 ### B. Project Board
 
