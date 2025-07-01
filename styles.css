@@ -972,35 +972,102 @@ section {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-gradient);
 }
-.image-overlay {
-  position: relative;
-  display: inline-block;
-  width: fit-content;
-  overflow: hidden;
-  border-radius: 10px; /* Optional rounded corners */
-}
-
-.image-overlay img {
-  display: block;
+/* About Image Container */
+.about-image {
   width: 100%;
-  height: auto;
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;
 }
 
-/* Optional overlay effect */
+/* Image Placeholder Container */
+.image-placeholder {
+  position: relative;
+  width: 100%;
+  height: 340px; /* Adjust to match your design */
+  overflow: hidden;
+  border-radius: 14px;
+  background-color: #f0f0f0; /* Fallback background */
+}
+
+/* Hide the Font Awesome icon when image loads */
+.image-placeholder .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #ccc;
+  z-index: 1;
+}
+
+/* Image Overlay Container */
+.image-overlay {
+  position: absolute;
+  inset: 0; /* shorthand for top/right/bottom/left: 0 */
+  width: 100%;
+  height: 100%;
+  z-index: 2; /* Above the icon */
+}
+
+/* Remove default paragraph margins */
+.image-overlay p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the actual image */
+.image-overlay img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* **key line** — keeps aspect-ratio, crops overflow */
+  object-position: center;
+  display: block;
+  border-radius: 14px; /* Match container rounding */
+}
+
+/* Hover overlay effect */
 .image-overlay::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Semi-transparent black overlay */
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent tint */
   opacity: 0;
   transition: opacity 0.3s ease;
+  border-radius: 14px; /* Match container rounding */
+  z-index: 3; /* Above the image */
 }
 
-/* On hover, show the overlay */
 .image-overlay:hover::after {
   opacity: 1;
 }
 
+/* Hide icon when image is loaded (optional enhancement) */
+.image-placeholder:has(img) .fas {
+  display: none;
+}
+
+/* Alternative: If you want to show icon only when image fails to load */
+.image-overlay img {
+  background: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-image {
+    max-width: 100%;
+  }
+  
+  .image-placeholder {
+    height: 280px; /* Slightly smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-placeholder {
+    height: 240px; /* Even smaller on very small screens */
+  }
+}
