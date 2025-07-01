@@ -71,21 +71,29 @@ Example:
 ![3AA6F240-0A9F-46E0-AE30-1B519C4F7CCC_1_105_c](https://github.com/user-attachments/assets/d22c253b-8f99-420d-91f9-4f03cbf5da95)
 ![00A6F7AD-00BE-4DD6-A8A6-A6E05BD1471E_1_105_c](https://github.com/user-attachments/assets/31772950-3d3f-4b35-b49d-7f4608221cec)
 - Created a milestone for my portfolio project
+
+  
 <img width="1409" alt="image" src="https://github.com/user-attachments/assets/3d2e5244-e0f4-49e2-bf16-fa947ffc0fd8" />
 - Created issues to help me track functionalities within the milestone of developing my personal portfolio
 
 ### B. Project Board
+<img width="1480" alt="image" src="https://github.com/user-attachments/assets/3c04fa5d-98e8-4b3b-bc0c-db4a22437cf1" />
 
-- Screenshot of your GitHub Project Board with issues organized into columns (e.g., To Do, In Progress, Done).
 
 ### C. Branching
+<img width="1489" alt="image" src="https://github.com/user-attachments/assets/de58d18b-f225-4e87-8d6f-d9fc5add0a09" />
+- Various branches that have been created
 
-- Screenshot showing your branch list with meaningful naming.
 
 ### D. Pull Requests
 
-- Screenshot of a pull request that’s either open or merged and linked to a related issue.
+<img width="1429" alt="image" src="https://github.com/user-attachments/assets/1fc5f210-1ee7-445b-a14e-6497bb74c100" />
+
 
 ### E. Merge Conflict Resolution
 
-- Screenshot of a resolved merge conflict (in a pull request, commit history, or your local terminal/GitHub Desktop).
+<img width="1165" alt="image" src="https://github.com/user-attachments/assets/8128be81-3cc4-45fe-88dc-33560c262335" />
+<img width="991" alt="image" src="https://github.com/user-attachments/assets/96850080-628a-4795-9dcb-82236fabfd11" />
+- Caught a conflict and resolved it
+
+
