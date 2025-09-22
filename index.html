@@ -56,17 +56,17 @@
                     <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of chocolate while brainstorming the next big idea to help milions of people through leveraging tech.</p>
                     <div class="stats">
                         <div class="stat-item">
-                            <h3 class="stat-number" data-target="50">0</h3>
+                            <h3 class="stat-number" data-target="22">0</h3>
                             <p>Projects Completed</p>
                         </div>
                         <div class="stat-item">
-                            <h3 class="stat-number" data-target="3">0</h3>
+                            <h3 class="stat-number" data-target="2">0</h3>
                             <p>Years Experience</p>
-                        </div>
+                        <!-- </div>
                         <div class="stat-item">
                             <h3 class="stat-number" data-target="25">0</h3>
                             <p>Happy Clients</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                     <div class="about-image">
@@ -159,164 +159,172 @@
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="web">Web Apps</button>
-                <button class="filter-btn" data-filter="mobile">Mobile</button>
-                <button class="filter-btn" data-filter="design">Design</button>
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+    <div class="projects-grid">
+      <!-- Web App Projects -->
+      <div class="project-card" data-category="web">
+        <div class="project-image">
+          <div class="image-placeholder">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://github.com/iankaranja13/IoT-Smart-Farming-Assistant-" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/iankaranja13/IoT-Smart-Farming-Assistant-" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
             </div>
-            <div class="projects-grid">
-                <div class="project-card" data-category="web">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution built with React and Node.js</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="mobile">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Task Management App</h3>
-                        <p>Mobile-first task management application with real-time sync</p>
-                        <div class="project-tech">
-                            <span>React Native</span>
-                            <span>Firebase</span>
-                            <span>Redux</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="web">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-chart-bar"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Analytics Dashboard</h3>
-                        <p>Real-time analytics dashboard with interactive charts</p>
-                        <div class="project-tech">
-                            <span>Vue.js</span>
-                            <span>D3.js</span>
-                            <span>Python</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="design">
-                    <div class="project-image">
-                        <div class="image-placeholder">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                                <a href="#" class="project-link"><i class="fab fa-behance"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Brand Identity Design</h3>
-                        <p>Complete brand identity package for a tech startup</p>
-                        <div class="project-tech">
-                            <span>Figma</span>
-                            <span>Illustrator</span>
-                            <span>Photoshop</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+        <div class="project-info">
+          <h3>IoT Smart Farming Assistant</h3>
+          <p>A solution integrating IoT for automating farm monitoring and alerts. (Repo: IoT-Smart-Farming-Assistant-) </p>
+          <div class="project-tech">
+            <span>IoT</span>
+            <span>Microcontrollers</span>
+            <span>Data Visualization</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" data-category="web">
+        <div class="project-image">
+          <div class="image-placeholder">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://github.com/iankaranja13/ExpenseMaster.git" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/iankaranja13/ExpenseMaster.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Expense Management System</h3>
+          <p>A Laravel-based system to track, report, and manage expenses with secure authentication.</p>
+          <div class="project-tech">
+            <span>PHP / Laravel</span>
+            <span>MySQL</span>
+            <span>Authentication, Reporting</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more web apps here if desired -->
+
+      <!-- Design / Brands / EcoCycle -->
+      <div class="project-card" data-category="design">
+        <div class="project-image">
+          <div class="image-placeholder">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="https://www.figma.com/design/gWLHmUBXwlrsAqpvPW4aug/EcoCycle?node-id=0-1&t=8DRyYWGsmF1aU6VS-1" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>EcoCycle</h3>
+          <p>Brand and design work for EcoCycle — see full design in Figma.</p>
+          <div class="project-tech">
+            <span>Figma</span>
+            <span>Brand Identity</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Collaborate</h3>
-                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                    <div class="contact-methods">
-                        <div class="contact-method">
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="contact-content">
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Collaborate</h3>
+        <p>
+          I'm always interested in new opportunities and exciting projects. 
+          Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
 
-                            <i class="fas fa-envelope"></i>
-                            <span>ian.karanja@strathmore.edu</span>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-phone"></i>
-                            <span>+254719340607</span>
-                        </div>
-                        <div class="contact-method">
-                            <i class="fas fa-map-marker-alt"></i>
-
-                            <span>Nairobi,Kenya</span>
-                        </div>
-                    </div>
-
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
-                         <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <form class="contact-form" id="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">
-                        <span>Send Message</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
-            </div>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ian.karanja@strathmore.edu">ian.karanja@strathmore.edu</a>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+254719340607">+254 719 340 607</a>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Nairobi, Kenya</span>
+          </div>
         </div>
-    </section>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <a href="https://instagram.com/yourusername" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/iankaranja13" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/yourusername" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:ian.karanja@strathmore.edu" class="social-link"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/ian-karanja" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+     <form id="contact-form" action="https://formspree.io/f/mwprenvv" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <input type="text" name="subject" placeholder="Subject" required>
+  </div>
+  <div class="form-group">
+    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+  </div>
+  <button type="submit" class="submit-btn">
+    <span>Send Message</span>
+    <i class="fas fa-paper-plane"></i>
+  </button>
+</form>
+
+<script>
+  const form = document.getElementById('contact-form');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      alert("✅ Message sent successfully!");
+      form.reset();
+    } else {
+      alert("❌ Oops! Something went wrong. Please try again.");
+    }
+  });
+</script>
+
+
 
     <!-- Footer -->
     <footer class="footer">
